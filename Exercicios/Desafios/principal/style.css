@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #A0E7E5;
+    --cor02: #FFAEBC;
+    --cor03: #B4F8C8;
+    --cor04: #FBE7C6;
+    --cor05: #d0c0b0;
+    --cor06: #85D2D0;
+    --cor07: #6AABD2;
+    --cor08: #385E72;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: #c8d1d3;
+}
+header{
+    background-image: linear-gradient(to bottom, white, var(--cor01));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header > h1{
+    color: #3d2507b9;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px rgba(63, 62, 62, 0.151);
+}
+header > p{
+    color: #3d2507b9;
+    font-family: "Playwrite DE Grund";
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(27, 27, 27, 0.07);
+}
+nav{
+    background-color: var(--cor06);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.211);
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: var(--cor07);
+    color: #ffffff;
+    transition-duration:.5s;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    line-height: 2em;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(43, 43, 43, 0.271);
+}
+section#img01 {
+    background-image: url('../principal/imagem/tumblr.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    position: fixed;
+}
+section#img02 {
+    background-image: url('../principal/imagem/favorita.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    position: scroll;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(49, 48, 48, 0.268);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main strong{
+    color: #5b88a0;
+}
+main img{
+    width: 100%;
+}
+main img.grande{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin: center 10px 0px;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    margin: center 10px;
+}
+div.video {
+    margin: 0px -5px;
+    padding: 20px;
+  
+}
+main h1{
+    font-family: "Open Sans", sans-serif;
+   color: #3d2507b9;
+   text-shadow: 1px 1px 2px center #24242465;
+   font-size: 1.4em;
+}
+main h2
+{
+    font-family:"Montserrat", sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(72, 72, 72, 0.297);
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, var(--cor07), white);
+}
+main h3{
+    font-family:"Montserrat", sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #D68C45 #c49e7b;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor07), white);
+}
+main h4{
+    background-color: #385E72;
+    color: white;
+}
+main p{
+    font-family: "Playwrite DE Grund";
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+main a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #d3bba3;
+    padding: 2px 6px;
+    background-color: var(--cor07);
+}
+aside{
+    background-color: var(--cor07);
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 3px 3px 8px 3px rgba(60, 60, 60, 0.364);
+    text-decoration: none;
+}
+aside > h4{
+    background-color: var(--cor08);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 0px 0px 10px 10px;
+}
+aside > ul{
+    list-style-type: '\1F5F8\00A0';
+    list-style-position: inside;
+    columns: 2;
+    text-decoration: none;
+}
+footer{
+    background-color: #B7CFDC;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
