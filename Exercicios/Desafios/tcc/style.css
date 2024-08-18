@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: transparent;
+            background: url(bibibi.webp) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        div{
+           width: 420px;
+           background: transparent;
+           border: 2px solid rgba(255, 255, 255, 0.122);
+           backdrop-filter: blur(20px);
+           box-shadow: 0 0 10px rgba(0,0,0,.2);
+           color: #fff;
+           border-radius: 10px;
+           padding: 10px 0px;
+        }
+
+        div h1{
+            font-size: 36px;
+            text-align: center;
+        }
+        
+         div input-box {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px;
+        }
+
+       .input-box input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255,255,255,.2);
+        border-radius: 40px;
+        font-size: 15px;
+        color: #fff;
+        padding: 5px 25px 5px 5px;
+        }
+
+        .input-box input::placeholder{
+            color: #fff;
+        }
+
+        .input-box i{
+            position: absolute;
+            right: -3%;
+            padding: 11px;
+            margin: 18px;
+            transform: translateY(-50%);
+            font-size: 17px;
+        }
+        div .lembrar{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5;
+            margin: -15px 0px 15px;
+        }
+        .lembrar label input{
+            accent-color: #fff;
+            margin-right: 3px;
+        }
+        .lembrar a{
+            color: #fff;
+            text-decoration: none;
+        }
+        div .btn{
+            width: 100%;
+            height: 35px;
+            background: #fff;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;
+        }
+        div .Cadastrar{
+            font-size: 14.5px;
+            text-align: center;
+            margin-top: 20px;
+            margin: 20px 0px 15px;
+        }
+
+        .Cadastrar p a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        Cadastrar .p .a:hover{
+            text-decoration: underline;
+        }
+        legend{
+            border: 3px solid #e4d1c2;
+            padding: 10px;
+            text-align: center;
+            background-color: #ebdacc;
+            border-radius: 8px;
+            color: #51331b;
+        }
+        .inputUser{
+                background: none;
+                border: none;
+                border-bottom: 1px solid white;
+                color: white;
+                outline: none;
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 2px;
+            }
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+                top: -20%;
+                font-size: 12px;
+                color: #DE9151;
+            }
+            #data_nascimento{
+                border: none;
+                padding: 5px;
+                border-radius: 8px;
+                outline: none;
+                font-size: 15px;
+            }
+            #submit{
+                background-color: rgba(122, 8, 8, 0.733);
+                width: 100%;
+                border: none;
+                padding: 15px;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+                border-radius: 8px;
+            }
+            #submit:hover{
+                background-color: #bf7d46;
+            }
+
+        
