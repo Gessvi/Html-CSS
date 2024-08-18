@@ -64,6 +64,7 @@
             margin: 18px;
             transform: translateY(-50%);
             font-size: 17px;
+            cursor: pointer;
         }
         div .lembrar{
             display: flex;
