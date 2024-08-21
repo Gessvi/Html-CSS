@@ -16,6 +16,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+div input{
+    
+}
 
 .conteiner {
     backdrop-filter: blur(20px);
@@ -141,3 +144,4 @@ label {
 .radio {
     width: 20px;
 }
+
